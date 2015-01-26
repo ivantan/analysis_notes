@@ -1,0 +1,18 @@
+---
+title: 'Analysis: Chap1'
+output: html_document
+---
+
+__Definition 1__   
+A set $A \subseteq R$ is **bounded above** if there exists a number $b \in R$ such that for all $a \in A, a \le b$.  
+This number $b$ is called an upper bound for $A$.  
+
+1. one
+2. two
+3. three
+
+__Definition 2__  
+A real number $s$ is a **least upper bound** for a set $A \subseteq R$ if
+
+1. $s$ is an upper bound of $A$ and also  
+2. $s$ is less or equal to any upper bound of $A$.  
