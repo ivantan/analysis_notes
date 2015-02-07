@@ -1,0 +1,22 @@
+---
+title: "Tutorial 3"
+output: html_document
+---
+
+1. Prove that for any $a > 1, \displaystyle \lim_{n \rightarrow \infty} a^{\frac{1}{n}} = 1.$  
+    **Hint**: Apply the logarithmic function.  
+    
+    
+2. Prove that for any $a > 0, \displaystyle \lim_{n \rightarrow \infty} \frac{a^n}{n!} = 0.$,  
+    **Hint**: Since $a$ fixed, there is some (fixed) $n_0 \in \mathbf{N}$ such that $n_0 > a.$    
+    
+    
+3. Suppose that $(a_n)$ is a sequence of integers  
+
+4. Suppose that $(a_n)$ is a sequence such that  
+
+5. (a) Suppose that $(a_n), (b_n)$ are two sequences such that $(a_n)$ is bounded and $(b_n)$ converges to 0. Prove that the sequence $(a_n b_n)$ converges to 0.  
+
+6. Suppose that $(a_n)$ is an increasing sequence and $(b_n)$ is a decreasing sequence with $\lim_n (b_n - a_n) = 0$.  
+
+7. Suppose that $(a_n)_{n=1}$ is a decreasing sequence with limit 0. Define
