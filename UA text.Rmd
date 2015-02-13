@@ -1,0 +1,68 @@
+---
+title: "UA theorems"
+author: "Ivan WJ"
+date: "13 February, 2015"
+output: html_document
+---
+
+__1.1.1.__ There is no rational number whose square is 2.
+
+__1.2.3__ Given 2 sets, A and B a function A to B is a rule of mapping that takes each element x in A and associates with it a single element of B.
+
+__1.2.6__ Two real numbers a and b are equal if and only if for every real number e > 0, it follows that |a - b| < e.
+
+__1.3.1__ A set A subset of R is bounded above if there exists a number b in R such that a less than or equal b for all a in A. The number b is called an upper bound (UB) for A.
+
+__1.3.2__ A real number s is the least upper bound (LUB) for a set A subset of R if it meets the following two criteria: i) s is an UB for A; ii) if b is any UB for A, then s is less than or equal to b.
+
+__1.3.4__ A real number a_0 is a maximum (resp. minimum) of the set A if a_0 is an element of A and A_0 is greater (resp. smaller) than or equal to a for all a in A.
+
+__1.3.7__ Assume s in R is an UB for a set A subset of R. Then, s = sup A if and only if, for every choice of e > 0, there exists an element a in A satisfying s - e < a.
+
+__1.4.1 (Nested Interval Property)__ For each n in N, assume we are given a closed interval I_n = [a_n, b_n] = {x in R: a_n greater or equal to x great or equal to b_n}. Assume also that each I_n contains I_n+1. Then, the infinite intersection of I_n is not empty.
+
+__1.4.2 (Archimedean Ppty)__ (i) Given any number x in R, there exists an n in N satisfying n > x. (ii) Given any real number y > 0, there exists an n in N satisfying 1/n < y.
+
+__1.4.3__ For every two real number a and b with a < b, there exists a rational number r satisfying a < r < b.
+
+__1.4.4__ Given any two real numbers a < b, there exists an irrational number t satisfying a < t < b.
+
+__1.4.5__ There exists a real number a in R satisfying a^2 = 2.
+
+__Countable and Uncountable Sets__
+
+__1.4.6__ A function f : A -> B is one-to-one (1-1) if a_1 is not equal to a_2 in A implies that f(a_1) is not equal to f(a_2) in B. The function f is onto if given any b in B, it is possible to find an element a in A for which f(a) = b. A function is that 1-1 and onto is called 1-1 correspondence between the two sets. The ppty of 1-1 means that no two elements in A correspond to the same element in B, and the ppty of onto ensure that every element of B correspond to something in A.
+
+__1.4.7__ Two sets A and B have the same cardinality if there exists f : A -> B that is 1-1 and onto. It can then be written as A ~ B.
+
+__1.4.10__ A set A is countable if N ~ A. An infinite set that is not countable is called an uncountable set.
+
+__1.4.11__ (i) The set Q is countable. (ii) The set R is uncountable.
+
+__1.4.12__ If A subset of B and B is countable, then A is either countable, finite or empty.
+
+__1.4.13__ (i) If A_1, A_2, ... A_m are each countable sets, then the union of the A_n, n = 1, 2, ... , m, is countable. (ii) If A_n is a countable set for each n in N, then the infinite union of A_n is countable.
+
+__1.5.1__ The open interval (0, 1) = {x in R : 0 < x < 1} is uncountable.
+
+__1.5.2 (Cantor's Theorem)__ Given any set A, there does not exist a function f : A -> P(A) that is onto.
+
+__Sequences and Series__
+
+__2.2.1__ A sequence is a function whose domain is N.
+
+__2.2.3 (Convergence of a sequence)__ A seq (a_n) converges to a real number a if, for every positive number e, there exists an N in N such that whenever n is greater or equal to N, it follows that |a_n - a| < e.
+
+__2.2.4__ Given a real number a in R and a positive number e > 0, the set V_e(a) = {x in R : |x - a| < e} is called the e-neighborhood of a.
+
+__2.2.8__ A sequence that does not converge is said to diverge.
+
+__Algebraic and Order Limit Theorems__
+
+__2.3.1__ A sequence (x_n) is bounded if there exists a number M > 0 such that |a_n| less than or equal to M for all n in N.
+
+__2.3.2__ Every convergent sequence is bounded.
+
+__2.3.3 (Algebraic Limit Theorem)__ Let lim a_n = a, and lim b_n = b. Then, (i) lim (ca_n) = ca, for all c in R; (ii) lim (a_n + b_n) = a + b; (iii) lim (a_nb_n) = ab; (iv) lim (a_n/b_n) = a/b, provided b is not 0.
+
+__2.3.4 (Order Limit Theorem)__ Assume lim a_n = a and lim b_n = b. (i) If a_n greater or equal to 0 for all n in N, then a greater or equal to 0. (ii) If a_n lesser or equal to b_n for all n in N, then a lesser or equal to b. (iii) If there exists c in R for which c lesser or equal to b_n (resp. a_n lesser or equal to c) for all n in N, then c lesser or equal to b (resp. a lesser or equal to c).
