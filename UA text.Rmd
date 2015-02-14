@@ -66,3 +66,50 @@ __2.3.2__ Every convergent sequence is bounded.
 __2.3.3 (Algebraic Limit Theorem)__ Let lim a_n = a, and lim b_n = b. Then, (i) lim (ca_n) = ca, for all c in R; (ii) lim (a_n + b_n) = a + b; (iii) lim (a_nb_n) = ab; (iv) lim (a_n/b_n) = a/b, provided b is not 0.
 
 __2.3.4 (Order Limit Theorem)__ Assume lim a_n = a and lim b_n = b. (i) If a_n greater or equal to 0 for all n in N, then a greater or equal to 0. (ii) If a_n lesser or equal to b_n for all n in N, then a lesser or equal to b. (iii) If there exists c in R for which c lesser or equal to b_n (resp. a_n lesser or equal to c) for all n in N, then c lesser or equal to b (resp. a lesser or equal to c).
+
+__2.4.1__ A sequence is increasing if a_n less than or equal to a_n+1 for all n in N and decreasing if a_n greater than equal a_n+1 for all n in N. A sequence is monotone if it is either increasing or decreasing.
+
+__2.4.2 (Monotone Convergence Theorem__ If a sequence is monotone and bounded, then it converges.
+
+__2.4.3__ Let (b_n) be a sequence. An infinite series is a formal expression of the form  
+$$
+\sum^\infty_{n=1} b_n = b_1 + b_2 + \cdots .
+$$  
+
+And the corresponding sequence of partial sums (s_m) where s_m = b_1 + b_2 + \cdots + b_m, and say that the series converges to B if the partial sums (s_m) converges to B.
+
+__2.4.5 (Harmonic Series)__ This time, consider the so-called harmonic series  
+
+$$
+\sum^\infty_{n=1} \frac{1}{n} .
+$$
+
+We see that in general s_2k = 1 + k(1/2) which is unbounded.
+
+__2.4.6 (Cauchy Condensation Test)__ Suppose (b_n) is decreasing and satisfies b_n greater or equal to 0 for all n in N. Then, the series $\sum^\infty b_n$ converges if and only if the series  
+
+$$
+\sum^\infty_{n=0} 2^nb_{2^n} = b_1 + 2b_2 + 4b_4 + 8b_8 + 16b_{16} + \cdots
+$$  
+
+converges.
+
+__2.4.7__ The series $\sum^\infty_{n=1} \frac{1}{n^p}$ converges if and only if p > 1.
+
+__Subsequences and the Bolzano-Weierstrass Theorem__
+
+__2.5.1__ Let (a_n) be a sequence of real numbers, and let $n_1 < n_2 < n_3 < n_4 < n_5 < \cdots$ be an increasing sequence of natural numbers. Then the sequence $a_{n_1}, a_{n_2}, a_{n_3}, a_{n_4}, a_{n_5}, \cdots$ is called a subsequence of (a_n) and is denoted by $(a_{n_j})$, where j in N indexes the subsequence.
+
+__2.5.2__ Subsequences of a convergent sequence converge to the same limit as the original sequence.
+
+__2.5.5 (Bolzano-Weierstrass Theorem)__ Every bounded sequence contains a convergent subsequence.
+
+__The Cauchy Criterion__
+
+__2.6.1__ A sequence (a_n) is called a Cauchy sequence if, for every e > 0, there exists an N in N such that whenever m, n greater or equal to N it follows that |a_n - a_m| < e.
+
+__2.6.2__ Every convergent sequence is a Cauchy sequence.
+
+__2.6.3__
+
+__2.6.4__

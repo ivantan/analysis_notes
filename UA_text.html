@@ -98,6 +98,29 @@ img {
 <p><strong>2.3.2</strong> Every convergent sequence is bounded.</p>
 <p><strong>2.3.3 (Algebraic Limit Theorem)</strong> Let lim a_n = a, and lim b_n = b. Then, (i) lim (ca_n) = ca, for all c in R; (ii) lim (a_n + b_n) = a + b; (iii) lim (a_nb_n) = ab; (iv) lim (a_n/b_n) = a/b, provided b is not 0.</p>
 <p><strong>2.3.4 (Order Limit Theorem)</strong> Assume lim a_n = a and lim b_n = b. (i) If a_n greater or equal to 0 for all n in N, then a greater or equal to 0. (ii) If a_n lesser or equal to b_n for all n in N, then a lesser or equal to b. (iii) If there exists c in R for which c lesser or equal to b_n (resp. a_n lesser or equal to c) for all n in N, then c lesser or equal to b (resp. a lesser or equal to c).</p>
+<p><strong>2.4.1</strong> A sequence is increasing if a_n less than or equal to a_n+1 for all n in N and decreasing if a_n greater than equal a_n+1 for all n in N. A sequence is monotone if it is either increasing or decreasing.</p>
+<p><strong>2.4.2 (Monotone Convergence Theorem</strong> If a sequence is monotone and bounded, then it converges.</p>
+<p><strong>2.4.3</strong> Let (b_n) be a sequence. An infinite series is a formal expression of the form<br /><span class="math">\[
+\sum^\infty_{n=1} b_n = b_1 + b_2 + \cdots .
+\]</span></p>
+<p>And the corresponding sequence of partial sums (s_m) where s_m = b_1 + b_2 + + b_m, and say that the series converges to B if the partial sums (s_m) converges to B.</p>
+<p><strong>2.4.5 (Harmonic Series)</strong> This time, consider the so-called harmonic series</p>
+<p><span class="math">\[
+\sum^\infty_{n=1} \frac{1}{n} .
+\]</span></p>
+<p>We see that in general s_2k = 1 + k(1/2) which is unbounded.</p>
+<p><strong>2.4.6 (Cauchy Condensation Test)</strong> Suppose (b_n) is decreasing and satisfies b_n greater or equal to 0 for all n in N. Then, the series <span class="math">\(\sum^\infty b_n\)</span> converges if and only if the series</p>
+<p><span class="math">\[
+\sum^\infty_{n=0} 2^nb_{2^n} = b_1 + 2b_2 + 4b_4 + 8b_8 + 16b_{16} + \cdots
+\]</span></p>
+<p>converges.</p>
+<p><strong>2.4.7</strong> The series <span class="math">\(\sum^\infty_{n=1} \frac{1}{n^p}\)</span> converges if and only if p &gt; 1.</p>
+<p><strong>Subsequences and the Bolzano-Weierstrass Theorem</strong></p>
+<p><strong>2.5.1</strong> Let (a_n) be a sequence of real numbers, and let <span class="math">\(n_1 &lt; n_2 &lt; n_3 &lt; n_4 &lt; n_5 &lt; \cdots\)</span> be an increasing sequence of natural numbers. Then the sequence <span class="math">\(a_{n_1}, a_{n_2}, a_{n_3}, a_{n_4}, a_{n_5}, \cdots\)</span> is called a subsequence of (a_n) and is denoted by <span class="math">\((a_{n_j})\)</span>, where j in N indexes the subsequence.</p>
+<p><strong>2.5.2</strong> Subsequences of a convergent sequence converge to the same limit as the original sequence.</p>
+<p><strong>2.5.5 (Bolzano-Weierstrass Theorem)</strong> Every bounded sequence contains a convergent subsequence.</p>
+<p><strong>The Cauchy Criterion</strong></p>
+<p><strong>2.6.1</strong> A sequence (a_n) is called a Cauchy sequence if, for every e &gt; 0, there exists an N in N such that whenever m, n greater or equal to N it follows that |a_n - a_m| &lt; e.</p>
 
 
 </div>
