@@ -110,6 +110,22 @@ __2.6.1__ A sequence (a_n) is called a Cauchy sequence if, for every e > 0, ther
 
 __2.6.2__ Every convergent sequence is a Cauchy sequence.
 
-__2.6.3__
+__2.6.3__ Cauchy sequences are bounded.
 
-__2.6.4__
+__2.6.4 (Cauchy Criterion)__ A sequence converges if and only if it is a Cauchy sequence.
+
+__Properties of Infinite Series__
+
+__2.7.1 (Algebraic Limit Theorem for Series)__ If $\sum^\infty_{k=1} a_k = A$ and $\sum^\infty_{k=1} b_k = B$ then (i) $\sum^\infty_{k=1} ca_k = cA$ for all c in R, and (ii) $\sum^\infty_{k=1} a_k + b_k = A + B.$
+
+__2.7.2 (Cauchy Criterion for Series)__ The series $\sum^\infty_{k=1} a_k$ converges if and only if, given e > 0, there exists an N in N such that whenever n > m greater or equal to N it follows that $|a_{m+1} + a_{m+2} + \cdots + a_n| < e.$
+
+__2.7.3__ If the series $\sum^\infty_{k=1} a_k$ converges then (a_k) -> 0.
+
+__2.7.4 (Comparison Test)__ Assume (a_k) and (b_k) are sequences satisfying 0 lesser or equal to a_k lesser or equal to b_k for all k in N. (i) If $\sum^\infty_{k=1} b_k$ converges, then $\sum^\infty_{k=1} a_k$ converges. (ii) If $\sum^\infty_{k=1} a_k$ diverges, then $\sum^\infty_{k=1} b_k$ diverges.
+
+__2.7.5 (Geometric Series)__
+
+__2.7.6 (Absolute Convergence Test)__
+
+__2.7.7 (Alternating Series Test)__
