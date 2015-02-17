@@ -124,8 +124,18 @@ __2.7.3__ If the series $\sum^\infty_{k=1} a_k$ converges then (a_k) -> 0.
 
 __2.7.4 (Comparison Test)__ Assume (a_k) and (b_k) are sequences satisfying 0 lesser or equal to a_k lesser or equal to b_k for all k in N. (i) If $\sum^\infty_{k=1} b_k$ converges, then $\sum^\infty_{k=1} a_k$ converges. (ii) If $\sum^\infty_{k=1} a_k$ diverges, then $\sum^\infty_{k=1} b_k$ diverges.
 
-__2.7.5 (Geometric Series)__
+__2.7.5 (Geometric Series)__ A series is called geometric if it is of the form
 
-__2.7.6 (Absolute Convergence Test)__
+$$
+\sum^\infty_{k=0} ar^k = a + ar + ar^2 + ar^3 + \cdots .
+$$
 
-__2.7.7 (Alternating Series Test)__
+If r = 1 and a not equal to 0, the series evidently diverges. For r not equal to 1, the algebraic identity $(1-r)(1 + r + r^2 + r^3 + \cdots + r^{m-1}) = 1 - r^m$. Rewritten in partial sums, $s_m = a \frac{1-r^m}{1-r}$, using the Algebraic Limit Theorem (for sequences) justify the conclusion
+
+$$
+\sum^\infty_{k=0} ar^k = \frac{a}{1-r}
+$$
+
+__2.7.6 (Absolute Convergence Test)__ If the series $\sum^\infty_{n=1} |a_n|$ converges, then $\sum^\infty_{n=1} a_n$ converges as well. 
+
+__2.7.7 (Alternating Series Test)__ Let (a_n) be a sequence satisfying, (i) $a_1 \ge a_2 \ge a_3 \ge \cdots \ge a_n \ge a_{n+1} \cdots$ and (ii) $(a_n) \rightarrow 0.$ Then, the alternating series $\sum^\infty_{n=1} (-1)^{n+1} a_n$ converges
