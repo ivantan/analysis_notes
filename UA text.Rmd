@@ -139,3 +139,20 @@ $$
 __2.7.6 (Absolute Convergence Test)__ If the series $\sum^\infty_{n=1} |a_n|$ converges, then $\sum^\infty_{n=1} a_n$ converges as well. 
 
 __2.7.7 (Alternating Series Test)__ Let (a_n) be a sequence satisfying, (i) $a_1 \ge a_2 \ge a_3 \ge \cdots \ge a_n \ge a_{n+1} \cdots$ and (ii) $(a_n) \rightarrow 0.$ Then, the alternating series $\sum^\infty_{n=1} (-1)^{n+1} a_n$ converges
+
+__2.7.8__ If $\sum^\infty_{n=1} |a_n|$ converges, then we say that the original series $\sum^\infty_{n=1} a_n$ converges absolutely. If, on the other hand, the series $\sum^\infty_{n=1} a_n$ converges but the series of absolute values $\sum^\infty_{n=1} |a_n|$ does not converge, then we say that the original series $\sum^\infty_{n=1} a_n$ converges conditionally.
+
+__Rearrangements__
+
+__2.7.9__ Let $\sum^\infty_{k=1} a_k$ be a series. A series $\sum^\infty_{k=1} b_k$ is called a rearrangement of $\sum^\infty_{k=1} a_k$ if there exists a one-to-one, onto function f : N -> N such that b_f(k) = a_k for all k in N.
+
+__2.7.10__ If $\sum^\infty_{k=1} a_k$ converges absolutely, then any rearrangement of this series converges to the same limit.
+
+__Double Summations and Products of Infinite Series__
+
+In general, $\sum^\infty_{j=1} \sum^\infty_{i=1} a_{ij}$ not equal to $\sum^\infty_{i=1} \sum^\infty_{j=1} a_{ij}$
+
+__2.8.1__ Let {a_ij : i,j in N} be a double indexed array of real numbers. If $\sum^\infty_{i=1} \sum^\infty_{j=1} |a_{ij}|$ converges, then both $\sum^\infty_{i=1} \sum^\infty_{j=1} a_{ij}$ and $\sum^\infty_{j=1} \sum^\infty_{i=1} a_{ij}$ converge to the same value.
+
+__Basic Topology of R__
+
